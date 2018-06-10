@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap4-scss-live-reload",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 with Sass compiler and Live Reload",
+  "scripts": {
+    "scss": "sass scss/bootstrap.scss:public/css/style.css --style compressed",
+    "test": "live-server --port=8085 --open=public/ --watch=public/ --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "sass": "^1.5.1"
+  },
+  "dependencies": {}
+}
